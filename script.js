@@ -8,7 +8,7 @@ function pedirPeso(){
     peso = parseInt(prompt("Indique su peso corporal en kg"));
 }
 function pedirAltura(){
-    altura = parseInt(prompt("Indique su altura en cemtimetros"));
+    altura = parseInt(prompt("Indique su altura en metros"));
 }
 function saludar(){
     let saludo = prompt("Ingrese su nombre");
