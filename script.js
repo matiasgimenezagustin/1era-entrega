@@ -34,7 +34,7 @@ function calculator(){
 }
 
 function condition(mayorA, menorA, resultCondition){
-    alert("Su IMC es entre" + mayorA + " - " + menorA + thisMean + resultCondition + recomendation)
+    alert("Su IMC es entre " + mayorA + " - " + menorA + thisMean + resultCondition + recomendation)
 }
 
 // Bucle while 
@@ -58,7 +58,7 @@ while(query != "ESC"){
         condition(30, 34.9, "obesidad moderada")
     }
     else if((imc >= 35) && (imc <=  39.9)){
-        condition(35, 39.9)
+        condition(35, 39.9, "obesidad severa")
     }
     else if (imc > 40){
         alert("Su IMC es mayor a 40" + thisMean + "obesidad severa (morbida)." + recomendation)
